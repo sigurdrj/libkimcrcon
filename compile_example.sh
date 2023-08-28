@@ -1,0 +1,1 @@
+g++ -std=c++2a -O2 -Wall -Wno-maybe-uninitialized -c example.cpp -o example.o && g++ -std=c++2a -O2 -Wall -Wno-maybe-uninitialized example.o -o example -pthread -lcurl -lcurlpp -lsfml-system -lsfml-network
