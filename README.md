@@ -9,7 +9,7 @@ int main(){
 	libkimcrcon::MCRcon client;
 
 	//            Remote IP   Port    Password
-	client.login("127.0.0.1", 25575, "PASSWORD GOES HERE");
+	client.login("127.0.0.1", 25565, "PASSWORD GOES HERE");
 
 	client.send_cmds({"say This is RCON through C++!", "say And here is a second command"});
 
