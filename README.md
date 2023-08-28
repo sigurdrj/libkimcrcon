@@ -27,7 +27,7 @@ If there is any error, it will return an empty string ""
 
 # Notes
 This library does not utilise TLS or any encryption whatsoever \
-Only use this for controlling a local Minecraft server over a trusted network \
+Only use this for controlling a local Minecraft server over a trusted network
 
 The response parsing does not yet properly validate if the response is \
 spec-compliant.
